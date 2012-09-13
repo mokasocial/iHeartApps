@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/menu_container"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/menu_bg"
+	android:padding="6dp">
+    
+    <ImageButton
+    	android:id="@+id/refresh"
+    	android:src="@drawable/icon_btn_reload"
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    />
+    
+</LinearLayout>

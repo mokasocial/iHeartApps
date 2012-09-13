@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginBottom="48dip"
+    	android:orientation="vertical">
+    
+	    <include android:id="@+id/navbar" layout="@layout/navbar" />
+	    
+	    <include android:id="@+id/loading" layout="@layout/loading" />
+	    
+	    <ListView 
+	    	android:id="@+id/android:list" 
+	    	android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent"
+	    	android:cacheColorHint="#00ffffff"
+	    	android:divider="@android:color/transparent"
+	    	android:dividerHeight="0px"
+	    	android:visibility="gone" />
+	    	
+		<include android:id="@+id/nothing_loaded" layout="@layout/favorites_nothing_loaded" />
+	
+	</LinearLayout>
+	
+	<include android:layout_marginTop="-48dip" android:id="@+id/ad_container" layout="@layout/ad_container" />
+   	
+</LinearLayout>

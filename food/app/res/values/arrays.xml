@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=recipes&amp;output=rss</item>
+		<item>http://news.google.com/news?q=cooking&amp;output=rss</item>
+</string-array>
+	<string-array name="twitter_urls">
+		<item>humphryslocombe</item>
+		<item>FoodNetwork</item>
+		<item>simplyrecipes</item>
+		<item>gailsimmons</item>
+		<item>amandahesser</item>
+		<item>SAVEURMAG</item>
+		<item>bonappetitmag</item>
+		<item>TheAtlanticFOOD</item>
+		<item>nytimesfood</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>BBCFood</item>
+		<item>FoodNetworkTV</item>
+		<item>foodwishes</item>
+		<item>aniphyo</item>
+		<item>vahchef</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginBottom="48dip"
+   		android:orientation="vertical">
+    
+	   	<include android:id="@+id/navbar" layout="@layout/navbar" />
+		    
+	   	<EditText
+	   		android:id="@+id/search_terms_box"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	        
+	   	<Button
+	   		android:id="@+id/search_btn" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Search"
+	        android:textColor="@android:color/white" />
+	        
+	    <TextView
+	    	android:id="@+id/search_status_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Enter a search term"
+	        android:textColor="@android:color/white" />
+	        
+		<ListView 
+	    	android:id="@+id/android:list" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"
+	    	android:cacheColorHint="#00ffffff"
+	    	android:divider="@drawable/divider"
+	    	android:dividerHeight="1dp"
+	    	android:visibility="gone" />
+	        
+	</LinearLayout>
+	
+	<include android:layout_marginTop="-48dip" android:id="@+id/ad_container" layout="@layout/ad_container" />
+		
+</LinearLayout>

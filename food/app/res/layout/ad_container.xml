@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.mokasocial.iheart.food"
+	android:layout_width="fill_parent"
+	android:layout_height="48dip"
+	android:layout_marginTop="-48dip"
+	android:orientation="horizontal">
+     	<com.admob.android.ads.AdView
+			android:id="@+id/ad"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_alignParentBottom="true"
+			android:layout_gravity="bottom"
+			app:backgroundColor="#000000"
+			app:primaryTextColor="#FFFFFF"
+			app:secondaryTextColor="#CCCCCC"
+			app:refreshInterval="30"
+			app:keywords="@string/admob_default_keywords" 
+		/>
+</LinearLayout>

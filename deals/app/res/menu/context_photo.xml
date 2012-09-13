@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/photo_save"
+          android:icon="@drawable/icon_alert"
+          android:title="@string/photo_save" />
+	<item android:id="@+id/photo_set_wallpaper"
+          android:icon="@drawable/icon_alert"
+          android:title="@string/photo_set_wallpaper" />
+    <item android:id="@+id/photo_share"
+          android:icon="@drawable/icon_alert"
+          android:title="@string/photo_share" />
+</menu>

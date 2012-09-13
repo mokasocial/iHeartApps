@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/top"
+   	android:gravity="center_vertical"
+   	style="@style/list_post_item">
+    
+    <ImageView
+    	android:id="@+id/post_icon"
+    	style="@style/list_post_type_icon"
+    	android:visibility="visible"
+    	android:layout_marginRight="8dp"
+    />
+    
+    <TextView
+		android:id="@+id/tweeter"
+		android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+		android:layout_marginRight="53dp"
+		style="@style/list_post_title"
+		android:layout_marginBottom="2dp"
+		android:layout_toRightOf="@id/post_icon"
+	/>
+	
+	<TextView
+   		android:id="@+id/news_date"
+   		style="@style/list_post_meta"
+   		android:layout_marginLeft="-45dp"
+   		android:layout_gravity="right"
+   		android:layout_width="44dp"
+   		android:gravity="right"
+   		android:maxLines="1"
+   		android:layout_alignParentRight="true"
+   		android:layout_alignParentTop="true"
+   	/>
+   	
+   	<TextView
+		android:id="@+id/news_title"
+		style="@style/list_post_desc"
+		android:layout_below="@id/tweeter"
+		android:layout_toRightOf="@id/post_icon"
+	/>
+	
+	<ImageView
+    	android:id="@+id/favorited"
+    	android:src="@drawable/icon_heart_small"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:layout_gravity="right"
+    	android:paddingLeft="5dp"
+    	android:layout_marginTop="20dp"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentTop="true"
+    	android:scaleType="center"
+    />
+
+</RelativeLayout>

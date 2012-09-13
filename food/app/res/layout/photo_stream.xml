@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:paddingBottom="48dip"
+    	android:orientation="vertical"
+    	android:background="#ececec">
+    
+	    <include android:id="@+id/navbar" layout="@layout/navbar" />
+	    
+	    <include android:id="@+id/loading" layout="@layout/loading" />
+	    
+	    <GridView android:id="@+id/android:photogrid" 
+			android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+		    android:verticalSpacing="7dp"
+		    android:horizontalSpacing="7dp"
+		    android:numColumns="auto_fit"
+		    android:columnWidth="96px"
+		    android:stretchMode="spacingWidth"
+		    android:gravity="center"
+		    android:visibility="gone"
+		    android:cacheColorHint="#00ececec"
+	    />
+	     
+	    <include android:id="@+id/nothing_loaded" layout="@layout/nothing_loaded" />
+    
+    </LinearLayout>
+    
+	<include android:paddingTop="-48dip" android:id="@+id/ad_container" layout="@layout/ad_container" />
+		
+</LinearLayout>

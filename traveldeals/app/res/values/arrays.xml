@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=travel%20deals&amp;output=rss</item>
+		<item>http://news.google.com/news?q=airline&amp;output=rss</item>
+		<!-- <item>http://backend.deviantart.com/rss.xml?q=boost%3Apopular+max_age%3A8h+typography&amp;type=deviation</item> -->
+</string-array>
+	<string-array name="twitter_urls">
+		<item>cntraveller</item>
+		<item>travel_ticker</item>
+		<item>LATimesTravel</item>
+		<item>rickseaney</item>
+		<item>Travelzoo</item>
+		<item>timestravel</item>
+		<item>USATODAYtravel</item>
+		<item>traveldeals</item>
+		<item>airfarewatchdog</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>VideoTravelDeals</item>
+		<item>cmcginnis1</item>
+		<item>LuxuryTravelDeals</item>
+		<item>travelzoo</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

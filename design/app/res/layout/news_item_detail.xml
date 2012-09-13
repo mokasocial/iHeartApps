@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.mokasocial.iheartcelebs"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+	    android:id="@+id/control_tab"
+		android:layout_width="fill_parent" 
+    	android:layout_height="48px"
+    	android:background="#9932CD"
+    	android:visibility="gone">
+	    <ImageButton
+	    	android:id="@+id/thumbs_up"
+	    	style="@style/thumbs_up_button" />
+	    <ImageButton
+	    	android:id="@+id/thumbs_down"
+	    	style="@style/thumbs_down_button" />
+    </LinearLayout>
+    <WebView
+		android:id="@+id/summary" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" />
+
+	<include android:layout_marginTop="-48dip" android:id="@+id/ad_container" layout="@layout/ad_container" />
+
+</RelativeLayout>

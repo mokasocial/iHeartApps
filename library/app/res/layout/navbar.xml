@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/container"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:background="@drawable/nav_bg">
+	
+	<ImageView
+		android:id="@+id/iheart_logo"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:src="@drawable/iheart_small_logo"
+		android:scaleType="center"
+		android:layout_marginTop="-5px"
+		android:paddingLeft="10dp"
+	/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="right">
+		
+	    <ImageButton
+	    	android:id="@+id/btn_nav_news" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:src="@drawable/nav_icon_news"
+	        android:scaleType="center"
+	        android:paddingTop="8dp"
+	        android:paddingRight="15dp"
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="8dp"
+	        android:background="@drawable/nav_btn"
+	    />
+	
+	    <ImageButton 
+	    	android:id="@+id/btn_nav_media" 
+	    	android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/nav_icon_images"
+	        android:scaleType="center"
+	        android:paddingTop="8dp"
+	        android:paddingRight="15dp"
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="8dp"
+	        android:background="@drawable/nav_btn"
+	    />
+	    
+	    <ImageButton 
+	    	android:id="@+id/btn_nav_search" 
+	    	android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/nav_icon_media"
+	        android:scaleType="center"
+	        android:paddingTop="8dp"
+	        android:paddingRight="15dp"
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="8dp"
+	        android:background="@drawable/nav_btn"
+	    />
+	    
+	    <ImageButton 
+	    	android:id="@+id/btn_nav_favorites" 
+	    	android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/nav_icon_favorites"
+	        android:scaleType="center"
+	        android:paddingTop="8dp"
+	        android:paddingRight="15dp"
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="8dp"
+	        android:background="@drawable/nav_btn"
+	    />
+	    
+   	    <ImageButton 
+	    	android:id="@+id/btn_nav_query" 
+	    	android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/nav_icon_search"
+	        android:scaleType="center"
+	        android:paddingTop="8dp"
+	        android:paddingRight="15dp"
+	        android:paddingLeft="15dp"
+	        android:paddingBottom="8dp"
+	        android:background="@drawable/nav_btn"
+	    />
+	    
+    </LinearLayout>
+    
+</LinearLayout>

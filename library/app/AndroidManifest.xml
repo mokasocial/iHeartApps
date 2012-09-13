@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mokasocial.iheart.lib" android:versionName="1.0" android:versionCode="1">
+	<application
+		android:icon="@drawable/app_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/iHeartCelebs" 
+		android:name=".LibApp" android:debuggable="true">
+		<activity android:label="@string/app_name" android:name=".Main" android:configChanges="keyboardHidden|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="ActivityNews" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ActivityPhotos" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ActivityVideos" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ActivityFavorites" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ActivitySearch" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ViewPhotoActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ViewNewsActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ViewVideoActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="ViewFavoritesActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<meta-data android:value="a14cb7bb15252c0" android:name="ADMOB_PUBLISHER_ID" />
+		
+		<!-- Track Market installs from AdMob ads -->		
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="4" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+</manifest> 

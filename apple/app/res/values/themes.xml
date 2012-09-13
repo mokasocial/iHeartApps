@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>
+    
+    <!-- Default theme for iHeartCelebs app -->
+    <style name="iHeartCelebs" parent="@android:Theme">
+
+    	<item name="android:cacheColorHint">@android:color/transparent</item>
+    	<item name="android:colorBackground">#ececec</item>
+    	
+    	<!-- Button Styles -->
+    	<item name="android:buttonStyle">@style/Widget.Button</item>
+    	
+    	<item name="android:textViewStyle">@style/Widget.TextView</item>
+    	
+    	<item name="android:textColorPrimary">@color/primary_text</item>
+    	
+    	<!-- Text Styles -->
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    	
+    	<!-- Window Settings -->
+    	<item name="android:windowBackground">@drawable/bg</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    	<!-- Text appearance for dialog window title -->
+    <style name="TextAppearance.DialogWindowTitle" parent="android:TextAppearance"> 
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme.Dialog" parent="@android:style/Theme.Dialog"> 
+        <item name="android:windowTitleStyle">@style/TextAppearance.DialogWindowTitle</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    
+</resources>

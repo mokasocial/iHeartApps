@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionName="1.0" android:versionCode="1" package="com.mokasocial.iheart.traveldeals">
+    <application android:icon="@drawable/app_launcher" android:label="@string/app_name" android:theme="@style/iHeartCelebs" android:debuggable="false" android:name="com.mokasocial.iheart.lib.LibApp">
+        <activity android:name=".TravelDeals"
+                  android:label="@string/app_name" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name="com.mokasocial.iheart.lib.Main"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ActivityNews" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ActivityPhotos" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ActivityVideos" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ActivityFavorites" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ViewPhotoActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ViewNewsActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ViewVideoActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name="com.mokasocial.iheart.lib.ViewFavoritesActivity" android:configChanges="keyboardHidden|orientation"></activity>
+		
+		<meta-data android:value="a14d13d7da32145" android:name="ADMOB_PUBLISHER_ID" />
+		
+		<!-- Track Market installs from AdMob ads -->		
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+	</application>
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="4" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+</manifest> 

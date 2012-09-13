@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=typography%20gadgets&amp;output=rss</item>
+		<item>http://news.google.com/news?q=mashable&amp;output=rss</item>
+		<!-- <item>http://backend.deviantart.com/rss.xml?q=boost%3Apopular+max_age%3A8h+typography&amp;type=deviation</item> -->
+</string-array>
+	<string-array name="twitter_urls">
+		<item>GettyMuseum</item>
+		<item>designsponge</item>
+		<item>colourlovers</item>
+		<item>SFMOMA</item>
+		<item>designmilk</item>
+		<item>smashingmag</item>
+		<item>H_FJ</item>
+		<item>Behance</item>
+		<item>DesignMuseum</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>CreativeReviewTV</item>
+		<item>gettymuseum</item>
+		<item>designmilk</item>
+		<item>designboom</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

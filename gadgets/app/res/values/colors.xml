@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<resources>
+	
+	<!-- Button Colors -->
+	<color name="btn_text_dark">#1d2022</color>
+	<color name="btn_text_light">#364248</color>
+	<color name="btn_text_pressed">@color/btn_text_light</color>
+	
+	<color name="offwhite">#eeeeee</color>
+	<color name="dark_brown">#534b4b</color>
+	<color name="light_gray">#a7a7a7</color>
+	<color name="twitter_blue">#bd1361</color>
+	
+	<!-- Text Colors -->
+	<color name="primary_text">#534b4b</color>
+	
+	<!-- Textfield Colors -->
+	<color name="primary_textfield_text">#96a7b0</color>
+	<color name="secondary_textfield_text">#627f91</color>
+	
+	<color name="black">#ff000000</color>
+ 
+</resources> 

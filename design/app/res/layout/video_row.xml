@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/video_row"
+	android:orientation="vertical"
+	style="@style/list_post_item">
+    
+    <LinearLayout
+    	android:id="@+id/top"
+    	android:orientation="horizontal"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:paddingBottom="3dp"
+    	android:gravity="center_vertical">
+    	
+	    <ImageView
+	    	android:id="@+id/favorited"
+	    	android:src="@drawable/icon_heart_small"
+	    	style="@style/list_post_type_icon"
+	    	android:visibility="gone"
+	    />
+	    
+		<TextView
+			android:id="@+id/video_title"
+			style="@style/list_post_title"
+			android:layout_marginRight="47dp"
+		/>
+		
+		<TextView
+    		android:id="@+id/video_date"
+    		style="@style/list_post_meta"
+    		android:layout_marginLeft="-40dp"
+    		android:layout_gravity="right"
+    		android:maxLines="1"
+    	/>
+	
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/video_description"
+		style="@style/list_post_desc"
+		android:autoLink="all"
+		android:maxLines="3"
+	/>
+	
+</LinearLayout>

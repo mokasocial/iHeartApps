@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=deals%20of%20the%20day&amp;output=rss</item>
+		<item>http://news.google.com/news?q=woot&amp;output=rss</item>
+		<item>http://news.google.com/news?q=daily%20deals&amp;output=rss</item>
+</string-array>
+	<string-array name="twitter_urls">
+		<item>dealtaker</item>
+		<item>slickdeals</item>
+		<item>frugalgirls</item>
+		<item>fstimes</item>
+		<item>fatwalletdeals</item>
+		<item>CheapTweet</item>
+		<item>amazondeals</item>
+		<item>woot</item>
+		<item>dealdivine</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>dailysteals</item>
+		<item>DealsDirect</item>
+		<item>BestDealsShow</item>
+		<item>JOMADEALS</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=apple&amp;output=rss</item>
+		<item>http://news.google.com/news?q=apple%20mac&amp;output=rss</item>
+		<item>http://news.google.com/news?q=iphone&amp;output=rss</item>
+</string-array>
+	<string-array name="twitter_urls">
+		<item>apple_app_store</item>
+		<item>mashableapple</item>
+		<item>AppleDiscounts</item>
+		<item>MacTrast</item>
+		<item>digg_applenews</item>
+		<item>iphoneschool</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>AppleSoldier</item>
+		<item>ForAppleVideos</item>
+		<item>Apple</item>
+		<item>macworld</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

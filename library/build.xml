@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="iHeartLib" default="clean-build" xmlns:android="antlib:com.googlecode.autoandroid.ant">
+
+    <taskdef uri="antlib:com.googlecode.autoandroid.ant" classpath="build-lib/android-ant-1.0-rc5.jar"/>
+    <android:home/>
+
+    <property name="src.dir"     value="app/src"/>
+
+    <property name="build.dir"   value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
+    <property name="dex.dir"     value="${build.dir}/dex"/>
+
+    <property name="main-class"  value="oata.Main"/>
+
+    <property name="lib.dir"     value="lib"/>
+
+    <property name="raw.file" value="${ant.project.name}.jar"/>
+    <property name="raw-path.file" value="${jar.dir}/${raw.file}"/>
+    <property name="output.file" value="${ant.project.name}.jar"/>
+    <property name="output-path.file" value="${jar.dir}/${output.file}"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <fileset dir="${lib.dir}" id="main.jars">
+        <!-- <include name="android.jar"/> -->
+    </fileset>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    	<delete file="${src.dir}/com/mokasocial/iheart/lib/R.java"/>
+    </target>
+
+    <target name="resource-src" description="Generate the R.java file for this project's resources.">
+        <android:aapt>
+                <arg value="package"/>
+                <arg value="-m"/>
+                <arg value="-J"/>
+                <arg file="${src.dir}"/> <!-- Create R.java in the source directory -->
+                <arg value="-M"/>
+                <arg file="app/AndroidManifest.xml"/>
+                <arg value="-S"/>
+                <arg file="app/res"/>
+                <arg value="-I"/>
+                <arg file="${android-home}/android.jar"/>
+        </android:aapt>
+    </target>
+
+    <target name="build" depends="resource-src">
+        <mkdir dir="${classes.dir}"/>
+        <javac encoding="ascii" target="1.5" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <target name="jar" depends="build">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${raw-path.file}" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="clean-build" depends="clean,jar"/>
+
+    <target name="dex" depends="clean-build, resource-src" description="Convert the .class files into .dex files.">
+        <property name="classes.dex" location="${build.dir}/classes.dex"/>
+        <android:dx inputref="main.jars">
+                <arg value="--dex"/>
+                <arg value="--output=${classes.dex}"/>
+		<arg value="--core-library"/>
+                <arg path="${classes.dir}"/>
+        </android:dx>
+    </target> 
+	
+</project>
+

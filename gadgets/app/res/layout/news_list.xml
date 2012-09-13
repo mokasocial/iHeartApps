@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginBottom="48dip"
+    	android:orientation="vertical">
+    	
+	   	<include android:id="@+id/navbar" layout="@layout/navbar" />
+	    
+	    <include android:id="@+id/loading" layout="@layout/loading" />
+	    
+	    <LinearLayout
+			android:id="@+id/loading_message"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/menu_bg"
+			android:visibility="gone"
+			android:padding="6dp">
+		    
+		    <ImageButton
+		    	android:id="@+id/refresh"
+		    	android:src="@drawable/icon_btn_reload"
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="wrap_content"
+		    />
+		</LinearLayout>
+	    
+	    <ListView 
+	    	android:id="@+id/android:list" 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent"
+	    	android:cacheColorHint="#00ececec"
+	    	android:divider="@drawable/divider"
+	    	android:dividerHeight="1dp"
+	    	android:visibility="gone" />
+	    	
+		<include android:id="@+id/nothing_loaded" layout="@layout/nothing_loaded" />
+		
+	</LinearLayout>
+	
+	<include android:layout_marginTop="-48dip" android:id="@+id/ad_container" layout="@layout/ad_container" />
+   	
+</LinearLayout>

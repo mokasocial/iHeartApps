@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="list_post_meta" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#808080</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="list_post_desc" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#363636</item>
+        <item name="android:textColorLink">#0f8462</item>
+    </style>
+    <style name="list_post_title" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#363636</item>
+        <item name="android:textColorLink">#363636</item>
+    </style>
+    	<style name="title_twitter" parent="list_post_title">
+    	</style>
+    <style name="list_post_type_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="gridview_item">
+    	<item name="android:background">@drawable/listview_default</item>
+    </style>
+    <style name="list_post_item">
+    	<item name="android:padding">8dp</item>
+    	<item name="android:background">@drawable/listview_default</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+    </style>
+	    <style name="list_post_item_twitter" parent="list_post_item">
+	    	
+	    </style>
+	<style name="thumbs_up_button">
+		<item name="android:src">@drawable/thumbs_up</item>
+	   	<item name="android:layout_width">wrap_content</item>
+	   	<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="thumbs_down_button">
+		<item name="android:src">@drawable/thumbs_down</item>
+	   	<item name="android:layout_width">wrap_content</item>
+	   	<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="Widget.Button" parent="@android:style/Widget"> 
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#33ffffff</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <style name="SubmitButton" parent="Widget.Button">
+    	<item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="DialogText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:autoLink">all</item>
+		<item name="android:textColorLink">@color/primary_text</item>
+		<item name="android:textColor">@color/primary_text</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:paddingRight">10dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+	<style name="Widget.TextView" parent="android:Widget.TextView"> 
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+</resources>

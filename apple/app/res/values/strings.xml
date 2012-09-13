@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+	<string name="app_developer">MokaSocial, LLC</string>  
+    <string name="app_name">iHeartApple</string>
+    <string name="app_slogan">Tailored news, tweets, photos, videos, and more.</string>    
+    <string name="about">About</string>
+	<string name="about_title">About iHeartApple v{VERSION}</string>
+    <string name="about_text">This is licensed software developed by MokaSocial, LLC. &#169; 2010, all rights reserved.\n\nVisit us at mokasocial.com\n\nIcons by Yummygum</string>    
+	<string name="confirm_thumbs_down">Okay, no more articles like this.</string>
+	<string name="confirm_thumbs_up">Cool! We\'ll send you more like this.</string>
+	<string name="posted_info">Posted {PUBDATE} ago via {PUBLISHER}</string>
+	<string name="cntxt_menu_options">Options</string>
+	<string name="removed_fave">Removed post from bookmarks</string>
+	<string name="remove_fave_failed">Unable to remove from bookmarks</string>
+	<string name="added_fave">Added post to bookmarks</string>
+	<string name="add_fave_failed">Unable to add post to bookmarks</string>
+	<string name="unable_conn_inet">Unable to connect to the Internet</string>
+	<string name="admob_default_keywords">android</string>
+	<string name="loading">Just a sec...</string>
+	<string name="no_favs_title">Nothing\'s been bookmarked!</string>
+	<string name="nothing_loaded">Nothing to show!</string>
+	<string name="tooltip_how_to_save_a_fav">To bookmark an item, long-press on the item and choose \"Add to bookmarks\".</string>
+	
+	<string name="yahoo_app_id">tPkzJMLV34HtvAJho0e4KYAyvJVb3cgu7FiBdbaDp11WS3Z1fB_AHdPxMzWooWkyQQ--</string>
+	<string name="yahoo_base_query_url">http://boss.yahooapis.com/ysearch/images/v1/{QUERY}?appid={APPID}&amp;count=12&amp;dimensions=medium&amp;sites=news.google.com</string>
+	<string name="youtube_base_feed_url">http://gdata.youtube.com/feeds/api/videos</string>
+
+	<string name="photo_context_title">Options</string>
+	<string name="photo_save">Save to gallery</string>
+	<string name="photo_set_wallpaper">Set as wallpaper</string>
+	<string name="photo_share">Share</string>
+	
+	<string name="photo_share_subject">Apple photo</string>
+	<string name="news_share_subject">"Apple news from iHeartApple for Android"</string>
+	
+	<string name="photo_wallpaper_success">Wallpaper set successfully</string>
+	<string name="photo_wallpaper_failure">Unable to set wallper</string>
+	
+	<string name="add_to_faves">Add to bookmarks</string>
+	<string name="remove_from_faves">Remove from bookmarks</string>
+</resources>

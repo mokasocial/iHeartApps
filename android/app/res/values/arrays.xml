@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=android&amp;output=rss</item>
+		<item>http://news.google.com/news?q=android%20apps&amp;output=rss</item>
+		<item>http://news.google.com/news?q=android%20phones&amp;output=rss</item>
+</string-array>
+	<string-array name="twitter_urls">
+		<item>TalkAndroid</item>
+		<item>androidcentral</item>
+		<item>romainguy</item>
+		<item>androidnewsblog</item>
+		<item>AndroidSocMedia</item>
+		<item>HotAndroidApps</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>AndroidCentral </item>
+		<item>AndroidTips</item>
+		<item>EmoGamer</item>
+		<item>androinica</item>
+		<item>AndroidHD</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>

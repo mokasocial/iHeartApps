@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="photo_query_strings">
+		<item>http://news.google.com/news?q=celebrity&amp;output=rss</item>
+		<item>http://news.google.com/news?q=celebrity%20gossip&amp;output=rss</item>
+		<item>http://news.google.com/news?q=celeb&amp;output=rss</item>
+		<item>http://news.google.com/news?q=hollywood&amp;output=rss</item>
+</string-array>
+	<string-array name="twitter_urls">
+		<item>iheartcelebsapp</item>
+		<item>thesuperficial</item>
+		<item>usweekly</item>
+		<item>GossipFeeds</item>
+		<item>celebuzz</item>
+		<item>gossipgirl</item>
+		<item>VICEMAG</item>
+		<item>mtv</item>
+	</string-array>
+	<string-array name="news_urls">
+	</string-array>
+	<string-array name="video_authors">
+		<item>clevverTV</item>
+		<item>daisytree1</item>
+		<item>tvguide</item>
+		<item>EEntertainment</item>
+	</string-array>
+	<string-array name="test_devices">
+		<item>HT0AXT608805</item>
+	</string-array>
+</resources>
