@@ -25,7 +25,7 @@ import android.util.Log;
  * (save/retrieve) data from the database. We access this statically when
  * possible.
  * 
- * @author mhradek
+ * @author mokasocial
  * 
  */
 public class Database {

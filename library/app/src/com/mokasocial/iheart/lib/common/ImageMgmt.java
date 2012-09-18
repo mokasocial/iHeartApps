@@ -56,7 +56,7 @@ import android.widget.ImageView;
  * </pre>
  * 
  * 
- * @author mhradek
+ * @author mokasocial
  * 
  */
 public class ImageMgmt {
